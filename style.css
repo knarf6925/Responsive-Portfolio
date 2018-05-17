@@ -214,4 +214,22 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+
 }
+
+/* On screens that are 992px wide or less, the background color is blue */
+@media screen and (max-width: 980px 768px 640px) {
+    body {
+        background-color: blue;
+        color: white;
+    }
+}
+
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 640px) {
+    body {
+        background-color: olive;
+        color: white;
+    }
+}
+
